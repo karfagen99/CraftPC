@@ -1,0 +1,436 @@
+body {
+width: auto;
+height: auto;
+
+background: #111111;
+}
+
+
+main {
+    width: 1136px;
+height: 577px;
+left: 392px;
+top: 168px;
+
+background: linear-gradient(180deg, #2D2D2D 0%, rgba(45, 45, 45, 0) 100%);
+border-radius: 10px;
+margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+.upper-main-info {
+    display: flex;
+    width: 1136px;
+    height: 22px;
+    justify-content: space-between;
+    
+}
+
+.upper-main-info h3 {
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 32px;
+}
+.upper-main-left {
+    margin-top: 32px;
+    margin-left: 48px;
+}
+
+.upper-main-right {
+    margin-top: 42px;
+    
+  
+    margin-left: 75px;
+}
+
+.upper-main-right a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.63);
+    font-family: 'Play', sans-serif;
+}
+/* 
+.upper-main-right h4:hover {
+    text-decoration: underline;
+    color: #F12633;
+} */
+.upper-main-deepright {
+    margin-top: 32px;
+   margin-right: 80px;
+}
+
+
+.pc-card1 {
+    width: 326px;
+height: auto;
+background: #1C1C1C;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+margin-top: 100px;
+margin-left: 40px;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.cont-card {
+    width: 680px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 212px;
+height: 38px;
+/* -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2); */
+box-shadow: inset 0px 4px 16px rgba(19, 19, 19, 0.3);
+font-family: 'Archivo black', sans-serif;
+font-size: 16px;
+background-color: #F12633;
+border-radius: 6px;
+color: white;
+margin-bottom: 10px;
+text-decoration: none;
+outline: 0px transparent !important;
+
+
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+/* Basic / Background */
+
+color: #FFFFFF;
+
+}
+
+body a:hover {
+  
+        text-decoration: underline;
+        color: #F12633;
+   
+}
+
+.pc-card2 {
+    width: 326px;
+height: auto;
+background: #1C1C1C;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+margin-top: 100px;
+margin-left: 90px;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.pc-card1 img {
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+.pc-card2 img {
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+.pc-card1 h3, h4 {
+    font-family: 'Play', sans-serif;
+}
+
+.pc-card1 .namepc {
+    color: white;
+}
+
+
+.pc-card2 .namepc{
+    color: white;
+  
+}
+
+.pcprice {
+    color: #BDBDBD;
+}
+.pc-card2 h3, h4 {
+    font-family: 'Play', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background: #1C1C1C;
+}
+
+.nav-teh-info {
+    font-family: 'Archivo', sans-serif;
+    margin-left: 32px;
+}
+
+.nav-itemsbrand {
+    width: 1136px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adress-info-text {
+    width: 240px;
+height: 42px;
+font-family: 'Archivo Black', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+color: rgba(255, 255, 255, 0.55);
+text-align: right;
+}
+
+.nav-leftside {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-rightside {
+    display: flex;
+}
+
+.adress-info {
+    margin-right: 16px;
+}
+
+
+.under-bar-box {
+
+    display: flex;
+    margin: auto;
+  
+   justify-content:center ;
+  width: 1136px;  
+  height: 15px;
+  margin-top: 21px;
+    
+}
+
+.redline {
+    position: absolute;
+width: 100%;
+height: 0px;
+left: 0px;
+top: 60px;
+opacity: 100;
+
+/* Basic/Brand */
+border: 2px solid #F12633;
+}
+
+.under-bar-right {
+    width: 80px;
+    height: 15px;
+    
+
+
+}
+
+.under-bar-mid {
+    width: 565px;
+    height: 15px;
+    display: flex;
+    text-align: center;
+    gap: 25px;
+    margin: 0 25.5%;
+}
+
+.under-bar-mid a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    gap: 45px;
+}
+
+
+
+.social-info {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+.teh-text {
+    font-family: 'Archivo Black', sans-serif;
+    color: rgba(255, 255, 255, 0.83);
+    font-size: 16px;
+}
+
+.teh-num {
+    font-family: 'Archivo', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.nav-leftside .craft-logo {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+
+
+
+.containerbar {
+    display: flex;
+    justify-content: start;
+}
+
+.navbar-brand {
+    position: absolute;
+width: 42px;
+height: 42px;
+left: 392px;
+top: 19px;
+}
+
+.lis-cpu, .lis-gpu, .lis-ram, .lis-ssd, .lis-hdd{
+    background: #D9D9D9;
+    border-radius: 10px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+    
+    font-size: 12px;
+    margin: 10px;
+    margin-left: 11%;
+}
+
+.cpu-info, .gpu-info, .ssd-info, .hdd-info, .ram-info{
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Play', sans-serif;
+    
+}
+
+.over {
+    display: flex;
+
+    position: relative;
+}
+
+
+
+.tech-info h3{
+    font-size: 18px;
+    font-family: 'Play', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 10%;
+
+}
+
+
+.cont-block-pc-spec {
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.sidebarinfo {
+   margin-top: 100px;
+   margin-left: 90px;
+}
+
+
+.side-card-config {
+    width: 341px;
+height: 176px;
+background: #1C1C1C;
+background-image: url("img/screw.png");
+
+
+
+border: 1.5px solid #F12633;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+}
+
+
+.head {
+    font-family: 'Play', sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.selfmade {
+    font-family: 'Play', sans-serif;
+    color: white;
+    font-size: 24px;
+    margin-left: 35px;
+}
+
+.next {
+    
+    float: right;
+    margin-right: 25px;
+
+
+}
+
+.next a {
+    text-decoration: none;
+    font-family: 'Play', sans-serif;
+    color: white;
+    font-size: 21px;
+}
+
+.side-card-callback {
+    width: 341px;
+height: auto;
+background: #1C1C1C;
+background-image: url("img/maan.png");
+float: left;
+background-repeat: no-repeat;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+margin-top: 20px;
+
+}
+
+.headinfo {
+    font-family: 'Play', sans-serif;
+    color: white;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.bodyinfo {
+    width: 285px;
+    font-family: 'Montserrat', sans-serif;
+
+    color: rgba(255, 255, 255, 0.826);
+    font-size: 15px;
+    margin-top: 8px;
+    margin-left: 35px;
+
+}
+
+.rate {
+    width: auto;
+    float: right;
+    margin: 10px;
+    margin-right: 15px;
+}
